@@ -1,4 +1,4 @@
-This is the Notebooking website where you put any link that yopu want to watch on future.
+This is the Notebooking website where you put any link that you want to use on future.
 
 
 
