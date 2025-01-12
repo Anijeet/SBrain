@@ -9,6 +9,7 @@ const app=express();
 app.use(express.json())
 app.use(cors())
 
+const port = process.env.PORT || 3000;
 
 app.post('/api/v1/signup', async (req,res)=>{
     const username = req.body.username;
@@ -186,4 +187,4 @@ app.get("/api/v1/brain/:shareLink", async (req, res) => {
 })
 
 
-app.listen(3000)
+app.listen(port)
